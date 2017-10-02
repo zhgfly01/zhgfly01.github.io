@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-19T04:39:20.039Z</updated>
+  <updated>2017-10-02T07:39:31.835Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,102 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown简记</title>
+    <link href="http://yoursite.com/2017/10/02/Markdown%E7%AE%80%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/10/02/Markdown简记/</id>
+    <published>2017-10-02T06:44:58.000Z</published>
+    <updated>2017-10-02T07:39:31.835Z</updated>
+    
+    <content type="html"><![CDATA[<p>Markdown学习笔记。<br><a id="more"></a></p>
+<h1 id="本页md文本"><a href="#本页md文本" class="headerlink" title="本页md文本"></a>本页md文本</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div></pre></td><td class="code"><pre><div class="line"># 目录</div><div class="line">[TOC]</div><div class="line"></div><div class="line"># 标题</div><div class="line">1\#\~6\#: 1~6级标题</div><div class="line"></div><div class="line"># 文本</div><div class="line">&gt; &quot;这里是引用&quot;</div><div class="line">&gt;&gt; &quot;嵌套引用&quot;</div><div class="line"></div><div class="line">*斜体*</div><div class="line">**粗体**</div><div class="line">~~删除线~~</div><div class="line">``高亮文本``</div><div class="line">emoji表情: :blush:</div><div class="line">## 链接</div><div class="line">### url</div><div class="line">[Learning-Markdown](http://itmyhome.com/markdown/index.html)</div><div class="line">[st+md](http://www.cnblogs.com/IPrograming/p/Sublime-markdown-editor.html)</div><div class="line">&lt;http://www.google.com/&gt;</div><div class="line">### 图片</div><div class="line">![picture](http://mouapp.com/Mou_128.png)</div><div class="line"></div><div class="line">## 列表</div><div class="line">### 有序列表</div><div class="line">1. 1</div><div class="line">2. 2</div><div class="line">3. 3</div><div class="line"></div><div class="line">### 无序列表</div><div class="line">* 1</div><div class="line">  + 2</div><div class="line">    - 3</div><div class="line"></div><div class="line">## 表格</div><div class="line">| left | center | right |</div><div class="line">| :--- | :----: | ----: |</div><div class="line">| aaaa | bbbbbb | ccccc |</div><div class="line">| a    | b      | c     |</div><div class="line"></div><div class="line">## 代码</div><div class="line">```python</div><div class="line">def func():</div><div class="line">    print &quot;hello&quot;</div><div class="line">```</div><div class="line"></div><div class="line">## 华丽的分割线</div><div class="line">- - -</div><div class="line"></div><div class="line">## Task List</div><div class="line">- [ ] Eat</div><div class="line">- [x] Code</div><div class="line">  - [x] HTML</div><div class="line">  - [x] CSS</div><div class="line">  - [x] JavaScript</div><div class="line">- [ ] Sleep</div><div class="line"></div><div class="line"># 兼容HTML</div><div class="line">&lt;font face=&quot;微软雅黑&quot; color=&quot;red&quot; size=&quot;6&quot;&gt;字体及字体颜色和大小&lt;/font&gt;</div><div class="line">&lt;font color=&quot;#0000ff&quot;&gt;字体颜色&lt;/font&gt;</div><div class="line">&lt;u&gt;下划线文本&lt;/u&gt;</div><div class="line"></div><div class="line"># md格式转换</div><div class="line">pandoc</div><div class="line"></div><div class="line"># md高级语法(依赖md编辑器)</div><div class="line">* 流程图</div><div class="line">* 甘特图</div><div class="line">* Tex公式</div><div class="line"></div><div class="line"># 引用</div><div class="line">1. https://www.kancloud.cn/wizardforcel/markdown-simple-world</div></pre></td></tr></table></figure>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>1#~6#: 1~6级标题</p>
+<h1 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h1><blockquote>
+<p>“这里是引用”</p>
+<blockquote>
+<p>“嵌套引用”</p>
+</blockquote>
+</blockquote>
+<p><em>斜体</em><br><strong>粗体</strong><br><del>删除线</del><br><code>高亮文本</code></p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="url"><a href="#url" class="headerlink" title="url"></a>url</h3><p><a href="http://itmyhome.com/markdown/index.html" target="_blank" rel="external">Learning-Markdown</a><br><a href="http://www.cnblogs.com/IPrograming/p/Sublime-markdown-editor.html" target="_blank" rel="external">st+md</a><br><a href="http://www.google.com/" target="_blank" rel="external">http://www.google.com/</a></p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="http://mouapp.com/Mou_128.png" alt="picture"></p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
+<li>1<ul>
+<li>2<ul>
+<li>3</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
+<thead>
+<tr>
+<th style="text-align:left">left</th>
+<th style="text-align:center">center</th>
+<th style="text-align:right">right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">aaaa</td>
+<td style="text-align:center">bbbbbb</td>
+<td style="text-align:right">ccccc</td>
+</tr>
+<tr>
+<td style="text-align:left">a</td>
+<td style="text-align:center">b</td>
+<td style="text-align:right">c</td>
+</tr>
+</tbody>
+</table>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">print</span> <span class="string">"hello"</span></div></pre></td></tr></table></figure>
+<h2 id="华丽的分割线"><a href="#华丽的分割线" class="headerlink" title="华丽的分割线"></a>华丽的分割线</h2><hr>
+<h2 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List"></a>Task List</h2><ul>
+<li>[ ] Eat</li>
+<li>[x] Code<ul>
+<li>[x] HTML</li>
+<li>[x] CSS</li>
+<li>[x] JavaScript</li>
+</ul>
+</li>
+<li>[ ] Sleep</li>
+</ul>
+<h1 id="兼容HTML"><a href="#兼容HTML" class="headerlink" title="兼容HTML"></a>兼容HTML</h1><p><font face="微软雅黑" color="red" size="6">字体及字体颜色和大小</font></p>
+<p><font color="#0000ff">字体颜色</font><br><u>下划线文本</u></p>
+<h1 id="md格式转换"><a href="#md格式转换" class="headerlink" title="md格式转换"></a>md格式转换</h1><p>pandoc</p>
+<h1 id="md高级语法-依赖md编辑器"><a href="#md高级语法-依赖md编辑器" class="headerlink" title="md高级语法(依赖md编辑器)"></a>md高级语法(依赖md编辑器)</h1><ul>
+<li>流程图</li>
+<li>甘特图</li>
+<li>Tex公式</li>
+</ul>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><ol>
+<li><a href="https://www.kancloud.cn/wizardforcel/markdown-simple-world" target="_blank" rel="external">https://www.kancloud.cn/wizardforcel/markdown-simple-world</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Markdown学习笔记。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="CS" scheme="http://yoursite.com/categories/CS/"/>
+    
+      <category term="Tools" scheme="http://yoursite.com/categories/CS/Tools/"/>
+    
+      <category term="Editors" scheme="http://yoursite.com/categories/CS/Tools/Editors/"/>
+    
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

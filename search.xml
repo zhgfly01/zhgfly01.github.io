@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Markdown简记]]></title>
+    <url>%2F2017%2F10%2F02%2FMarkdown%E7%AE%80%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[Markdown学习笔记。 本页md文本123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172# 目录[TOC]# 标题1\#\~6\#: 1~6级标题# 文本&gt; &quot;这里是引用&quot;&gt;&gt; &quot;嵌套引用&quot;*斜体***粗体**~~删除线~~``高亮文本``emoji表情: :blush:## 链接### url[Learning-Markdown](http://itmyhome.com/markdown/index.html)[st+md](http://www.cnblogs.com/IPrograming/p/Sublime-markdown-editor.html)&lt;http://www.google.com/&gt;### 图片![picture](http://mouapp.com/Mou_128.png)## 列表### 有序列表1. 12. 23. 3### 无序列表* 1 + 2 - 3## 表格| left | center | right || :--- | :----: | ----: || aaaa | bbbbbb | ccccc || a | b | c |## 代码```pythondef func(): print &quot;hello&quot;```## 华丽的分割线- - -## Task List- [ ] Eat- [x] Code - [x] HTML - [x] CSS - [x] JavaScript- [ ] Sleep# 兼容HTML&lt;font face=&quot;微软雅黑&quot; color=&quot;red&quot; size=&quot;6&quot;&gt;字体及字体颜色和大小&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;字体颜色&lt;/font&gt;&lt;u&gt;下划线文本&lt;/u&gt;# md格式转换pandoc# md高级语法(依赖md编辑器)* 流程图* 甘特图* Tex公式# 引用1. https://www.kancloud.cn/wizardforcel/markdown-simple-world 标题1#~6#: 1~6级标题 文本 “这里是引用” “嵌套引用” 斜体粗体删除线高亮文本 链接urlLearning-Markdownst+mdhttp://www.google.com/ 图片 列表有序列表 1 2 3 无序列表 1 2 3 表格 left center right aaaa bbbbbb ccccc a b c 代码12def func(): print "hello" 华丽的分割线 Task List [ ] Eat [x] Code [x] HTML [x] CSS [x] JavaScript [ ] Sleep 兼容HTML字体及字体颜色和大小 字体颜色下划线文本 md格式转换pandoc md高级语法(依赖md编辑器) 流程图 甘特图 Tex公式 引用 https://www.kancloud.cn/wizardforcel/markdown-simple-world]]></content>
+      <categories>
+        <category>CS</category>
+        <category>Tools</category>
+        <category>Editors</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2017%2F06%2F18%2FHello-World%2F</url>
     <content type="text"><![CDATA[溪上漁 我是谁？一只程序猿 我从哪里来？1234567#include &lt;stdio.h&gt;int main()&#123; printf("Hello World\n"); return 0;&#125; 我要到哪里去？在路上，不知所向]]></content>

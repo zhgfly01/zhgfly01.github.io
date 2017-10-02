@@ -3,6 +3,33 @@
 
 
     
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/02/Markdown%E7%AE%80%E8%AE%B0/</loc>
+    <lastmod>2017-10-02T07:39:31.835Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown简记</title>
+        <pubTime>2017-10-02T06:44:58.000Z</pubTime>
+        
+        <tag>Markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="CS" url="http://yoursite.com/categories/CS/"/>
+          
+             
+              <breadCrumb title="Tools" url="http://yoursite.com/categories/CS/Tools/"/>
+          
+             
+              <breadCrumb title="Editors" url="http://yoursite.com/categories/CS/Tools/Editors/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://yoursite.com/2017/06/18/Hello-World/</loc>
     <lastmod>2017-06-19T04:39:20.039Z</lastmod>
